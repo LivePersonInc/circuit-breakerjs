@@ -1,0 +1,13 @@
+{
+    "options": {
+        "compress": {
+            "sequences": false
+        },
+        "preserveComments": "some"
+    },
+    "all_files": {
+        "files": {
+            "dest/lpCircuitBreaker.min.js": ["src/lpCircuitBreaker.js"]
+        }
+    }
+}

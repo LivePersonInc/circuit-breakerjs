@@ -1,0 +1,42 @@
+{
+    "name": "circuit-breaker",
+    "description": "JS Circuit Breaker Implementation",
+    "version": "0.0.1",
+    "author": {
+        "name": "LivePersonInc",
+        "email": "fe-infra-lp@liveperson.com"
+    },
+    "contributors": [
+    ],
+    "devDependencies": {
+        "blanket": "^1.1.6",
+        "chai": "^2.1.0",
+        "grunt": "0.4.x",
+        "grunt-available-tasks": "^0.5.7",
+        "grunt-contrib-concat": "^0.5.0",
+        "grunt-contrib-connect": "0.3.x",
+        "grunt-contrib-jshint": "0.10.x",
+        "grunt-contrib-uglify": "^0.9.1",
+        "grunt-node-version": "^1.0.0",
+        "grunt-replace": "0.7.x",
+        "load-grunt-config": "^0.16.0",
+        "mocha": "^2.1.0",
+        "requirejs": "^2.1.16",
+        "sinon": "^1.12.2",
+        "time-grunt": "^1.1.0"
+    },
+    "main": "./src/lpCircuitBreaker.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LivePersonInc/circuit-breaker"
+    },
+    "keywords": [
+        "circuit",
+        "breaker",
+        "liveperson"
+    ],
+    "engines": {
+        "node": ">=0.10.36",
+        "npm": ">=1.4"
+    }
+}
