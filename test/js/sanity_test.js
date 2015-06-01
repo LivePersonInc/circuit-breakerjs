@@ -1,3 +1,5 @@
+var expect = require('chai').expect;
+var requireHelper = require('./util/require_helper');
 describe('circuit-breaker Sanity Tests', function () {
 
     describe("simple example test", function () {
