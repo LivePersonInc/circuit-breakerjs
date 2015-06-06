@@ -8,7 +8,7 @@
     "laxcomma": true,
     "es3": true,
     "globals": {
-        "lpTag": true,
+        "CircuitRoot": true,
         "exports": true,
         "define": true,
         "require": true
