@@ -7,7 +7,7 @@
     },
     "all_files": {
         "files": {
-            "dest/lpCircuitBreaker.min.js": ["src/lpCircuitBreaker.js"]
+            "dest/CircuitBreaker.min.js": ["src/CircuitBreaker.js"]
         }
     }
 }
