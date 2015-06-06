@@ -1,7 +1,7 @@
 {
     "name": "circuit-breakerjs",
     "description": "Javascript Implementation for Circuit Breaker (Port of Hystrix Circuit Breaker)",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": {
         "name": "LivePersonInc",
         "email": "fe-infra-lp@liveperson.com"
