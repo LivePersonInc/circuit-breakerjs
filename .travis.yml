@@ -3,7 +3,7 @@ node_js:
    - "0.10.36"
 addons:
   code_climate:
-    repo_token: 7eb444e6e71675c9f511d10358428370f35162114b310e8cee56b7a40b0b71d0
+    repo_token: 2418f67132c58b6ab78611a3172afc8d2bbab741d1046a9a54633996feb7362f
 after_script:
   - npm install -g codeclimate-test-reporter
   - codeclimate < test/coverage/reports/lcov.info
