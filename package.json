@@ -1,7 +1,7 @@
 {
     "name": "circuit-breakerjs",
     "description": "Javascript Implementation for Circuit Breaker (Port of Hystrix Circuit Breaker)",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "author": {
         "name": "LivePersonInc",
         "email": "fe-infra-lp@liveperson.com"
@@ -29,7 +29,8 @@
         "load-grunt-config": "~0.17.1",
         "mocha": "~2.1.0",
         "sinon": "~1.12.2",
-        "time-grunt": "~1.1.0"
+        "time-grunt": "~1.1.0",
+        "uglify-js": "~2.4.23"
     },
     "main": "./src/CircuitBreaker.js",
     "repository": {
