@@ -103,3 +103,34 @@ Will return a boolean flag indicator for whether the circuit breaker is opened.
 
 ### calculate
 Will return a matrix of calculations for the current information from all existing buckets.
+
+Example
+-----------
+```javascript
+var CircuitBreaker = require("CircuitBreaker").CircuitBreaker;
+var circuit = new CircuitBreaker({
+    slidingTimeWindow: 5000,
+    bucketsNumber: 10,
+    tolerance: 50,
+    calibration: 5,
+    timeout: 0,
+    onopen: function() {
+        // Do Something when opened
+    },
+    onclose: function() {
+        // Do Something when closed
+    }
+});
+circuit.run(function(success, failure, timeout) {
+    $.ajax({
+      url: "http://a-web-service-of-some-kind",
+      context: document.body
+    }).done(success).fail(failure);
+});
+```
+
+For more example, look at the test directory.
+
+License
+----------
+MIT
