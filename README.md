@@ -6,7 +6,7 @@ Circuit Breaker
 [![Code Climate](https://codeclimate.com/github/LivePersonInc/circuit-breakerjs/badges/gpa.svg)](https://codeclimate.com/github/LivePersonInc/circuit-breakerjs)
 [![npm version](https://badge.fury.io/js/circuit-breakerjs.svg)](http://badge.fury.io/js/circuit-breakerjs)
 [![Dependency Status](https://david-dm.org/LivePersonInc/circuit-breakerjs.svg?theme=shields.io)](https://david-dm.org/LivePersonInc/circuit-breakerjs)
-[![devDependency Status](https://david-dm.org/LivePersonInc/cacherjs/dev-status.svg?theme=shields.io)](https://david-dm.org/LivePersonInc/cacherjs#info=devDependencies)
+[![devDependency Status](https://david-dm.org/LivePersonInc/circuit-breakerjs/dev-status.svg?theme=shields.io)](https://david-dm.org/LivePersonInc/circuit-breakerjs#info=devDependencies)
 [![npm downloads](https://img.shields.io/npm/dm/circuit-breakerjs.svg)](https://img.shields.io/npm/dm/circuit-breakerjs.svg)
 [![NPM](https://nodei.co/npm/circuit-breakerjs.png)](https://nodei.co/npm/circuit-breakerjs/)
 

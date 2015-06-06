@@ -1,37 +1,51 @@
 {
-    "name": "circuit-breaker",
-    "description": "JS Circuit Breaker Implementation",
+    "name": "circuit-breakerjs",
+    "description": "Javascript Implementation for Circuit Breaker (Port of Hystrix Circuit Breaker)",
     "version": "0.0.1",
     "author": {
         "name": "LivePersonInc",
         "email": "fe-infra-lp@liveperson.com"
     },
     "contributors": [
+        {
+            "name": "Michael Dimenshtein",
+            "email": "michaeld@liveperson.com"
+        },
+        {
+            "name": "Itai Koren",
+            "email": "itaik@liveperson.com"
+        }
     ],
     "devDependencies": {
-        "chai": "^2.1.0",
-        "grunt": "0.4.x",
-        "grunt-available-tasks": "^0.5.7",
-        "grunt-contrib-jshint": "0.10.x",
-        "grunt-contrib-uglify": "^0.9.1",
-        "grunt-env": "^0.4.4",
-        "grunt-istanbul": "^0.5.0",
-        "grunt-mocha-test": "^0.12.7",
-        "grunt-node-version": "^1.0.0",
-        "load-grunt-config": "^0.16.0",
-        "mocha": "^2.1.0",
-        "sinon": "^1.12.2",
-        "time-grunt": "^1.1.0"
+        "chai": "~3.0.0",
+        "grunt": "~0.4.5",
+        "grunt-available-tasks": "~0.5.7",
+        "grunt-contrib-jshint": "~0.11.2",
+        "grunt-contrib-uglify": "~0.9.1",
+        "grunt-env": "~0.4.4",
+        "grunt-istanbul": "~0.5.0",
+        "grunt-mocha-test": "~0.12.7",
+        "grunt-node-version": "~1.0.0",
+        "load-grunt-config": "~0.17.1",
+        "mocha": "~2.1.0",
+        "sinon": "~1.12.2",
+        "time-grunt": "~1.1.0"
     },
-    "main": "./src/lpCircuitBreaker.js",
+    "main": "./src/CircuitBreaker.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/LivePersonInc/circuit-breaker"
+        "url": "https://github.com/LivePersonInc/circuit-breakerjs"
     },
     "keywords": [
         "circuit",
         "breaker",
         "circuit-breaker",
+        "circuitbreaker",
+        "circuitbreaker-js",
+        "circuit-breaker-js",
+        "circuitbreakerjs",
+        "histrix",
+        "fail fast",
         "liveperson"
     ],
     "scripts": {
