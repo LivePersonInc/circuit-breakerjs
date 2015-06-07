@@ -37,7 +37,8 @@ This implementation is a port of the [Hystrix](https://github.com/Netflix/Hystri
 
 Please also see [Making the Netflix API More Resilient](http://techblog.netflix.com/2011/12/making-netflix-api-more-resilient.html)
 
-###Initialization Options
+Initialization Options
+-------------------------
 #### options.slidingTimeWindow
 Type: `Number`
 Default value: `30000`
